@@ -1,0 +1,26 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+API_MSGQUEUE_H	Api_MsgQueue.h	4;"	d
+ClearQueue	Api_MsgQueue.c	/^void ClearQueue(msgQueue_t *qPtr, size_t dataSize, void (*memFree)(void *))$/;"	f
+DestroyQueue	Api_MsgQueue.c	/^void DestroyQueue(msgQueue_t *qPtr, size_t dataSize, void (*memFree)(void *) )$/;"	f
+GetQueue	Api_MsgQueue.c	/^int GetQueue(msgQueue_t *qPtr, void *getData, size_t dataSize, void (*memCpy)(void *, void *), void (*memFree)(void *),char *qName)$/;"	f
+InitQueue	Api_MsgQueue.c	/^void InitQueue(msgQueue_t *qPtr, size_t qSize, size_t dataSize,char *qName)$/;"	f
+PrintQueue	Api_MsgQueue.c	/^void PrintQueue(msgQueue_t *qPtr, size_t dataSize, void (*memPrint)(void *))$/;"	f
+PutQueue	Api_MsgQueue.c	/^int PutQueue(msgQueue_t *qPtr, void *putData, size_t dataSize, void (*memCpy)(void *, void *))$/;"	f
+SEM_INIT_OK	Api_MsgQueue.c	18;"	d	file:
+_stQUEUE	Api_MsgQueue.h	/^typedef struct _stQUEUE{$/;"	s
+dlp	Api_MsgQueue.c	12;"	d	file:
+dlp	Api_MsgQueue.c	15;"	d	file:
+dp	Api_MsgQueue.c	11;"	d	file:
+dp	Api_MsgQueue.c	14;"	d	file:
+front	Api_MsgQueue.h	/^	int front;			\/\/ 읽을 위치$/;"	m	struct:_stQUEUE
+lock	Api_MsgQueue.h	/^	sem_t lock;$/;"	m	struct:_stQUEUE
+msgQueue_t	Api_MsgQueue.h	/^}msgQueue_t;$/;"	t	typeref:struct:_stQUEUE
+qSize	Api_MsgQueue.h	/^	int qSize;			\/\/ 큐의 크기$/;"	m	struct:_stQUEUE
+queue	Api_MsgQueue.h	/^	void *queue;		\/\/ queue로 사용되는 배열$/;"	m	struct:_stQUEUE
+rear	Api_MsgQueue.h	/^	int rear; 			\/\/ 쓸 위치$/;"	m	struct:_stQUEUE
+semInitResult	Api_MsgQueue.h	/^	int semInitResult;$/;"	m	struct:_stQUEUE
