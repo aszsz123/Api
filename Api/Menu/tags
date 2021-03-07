@@ -1,0 +1,96 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CHARSET_BUFSIZE	Api_Functions.c	937;"	d	file:
+CharToIntLittle	Api_Functions.c	/^int CharToIntLittle(char* data)$/;"	f
+CheckDirectory	Api_Functions.c	/^int CheckDirectory(char *pathName)$/;"	f
+CheckIpArea	Api_Functions.c	/^int CheckIpArea(long myIp, long rcvIp)$/;"	f
+CheckKernelTime	Api_Functions.c	/^int CheckKernelTime(void)$/;"	f
+ConvCharsetCp949ToUtf8	Api_Functions.c	/^int ConvCharsetCp949ToUtf8(char* src, char* dest)$/;"	f
+ConvCharsetEucKrToUtf8	Api_Functions.c	/^int ConvCharsetEucKrToUtf8(char* src, char* dest)$/;"	f
+ConvCharsetUtf16ToCp949	Api_Functions.c	/^int ConvCharsetUtf16ToCp949(char* src, char* dest)$/;"	f
+ConvCharsetUtf16ToUtf8	Api_Functions.c	/^int ConvCharsetUtf16ToUtf8(char* src, char* dest)$/;"	f
+ConvCharsetUtf8ToCp949	Api_Functions.c	/^int ConvCharsetUtf8ToCp949(char* src, char* dest)$/;"	f
+Convert7bitTo8bit	Api_Functions.c	/^void Convert7bitTo8bit(unsigned char *dest, unsigned char val)$/;"	f
+ConvertHexToInt	Api_Functions.c	/^int ConvertHexToInt(const unsigned char* p)$/;"	f
+ConvertHexToStr	Api_Functions.c	/^void ConvertHexToStr(unsigned char* dest, unsigned char* src)$/;"	f
+ConvertHexToString	Api_Functions.c	/^int ConvertHexToString(char hex, char *str)$/;"	f
+ConvertHexToXmlStr	Api_Functions.c	/^int ConvertHexToXmlStr(char* in, char* out, int* size)$/;"	f
+ConvertIntToCharArray	Api_Functions.c	/^int ConvertIntToCharArray(char *data, int val)$/;"	f
+ConvertIpHexToStringBig	Api_Functions.c	/^int ConvertIpHexToStringBig(char *buf, unsigned int bufSize, int ip)$/;"	f
+ConvertIpHexToStringBigForUI	Api_Functions.c	/^int ConvertIpHexToStringBigForUI(char *buf, unsigned int bufSize, int ip)$/;"	f
+ConvertIpHexToStringLittle	Api_Functions.c	/^int ConvertIpHexToStringLittle(char *buf, unsigned int bufSize, int ip)$/;"	f
+ConvertIpHexToStringLittleForUI	Api_Functions.c	/^int ConvertIpHexToStringLittleForUI(char *buf, unsigned int bufSize, int ip)$/;"	f
+ConvertIpStringToHex	Api_Functions.c	/^int ConvertIpStringToHex(int *ip, char *str)$/;"	f
+ConvertXmlStrToHex	Api_Functions.c	/^int ConvertXmlStrToHex(char* in, char* out, int* size)$/;"	f
+DisplayMainMenu	menu.c	/^void DisplayMainMenu(void)$/;"	f
+DisplayMenu	Api_Menu.c	/^int DisplayMenu(void *(*menu)[4], menuInfo_t *info)$/;"	f
+FILENAME_SKELETON_MAIN	Api_Functions.c	806;"	d	file:
+FindMountingUsbDirectory	Api_Functions.c	/^int FindMountingUsbDirectory(char (*directory)[32])$/;"	f
+GetCurrentProgramVersion	Api_Functions.c	/^int GetCurrentProgramVersion(int type,int kind)$/;"	f
+InputStringUseMaintenance	Api_Functions.c	/^int InputStringUseMaintenance(char* data, int* dataSize)$/;"	f
+Ipv4StrToInt	Api_Functions.c	/^int Ipv4StrToInt(char *ipStr)$/;"	f
+JudgeShortDataLimitOver	Api_Functions.c	/^int JudgeShortDataLimitOver(short data, short highLimit, short lowLimit)$/;"	f
+KEY_BACK	Api_Menu.c	101;"	d	file:
+KEY_ENTER_CR	Api_Menu.c	100;"	d	file:
+KEY_ENTER_LF	Api_Menu.c	99;"	d	file:
+MENU_DATA_TYPE_FLOAT	Api_Menu.h	15;"	d
+MENU_DATA_TYPE_HIGHLOW	Api_Menu.h	13;"	d
+MENU_DATA_TYPE_INT	Api_Menu.h	14;"	d
+MENU_DATA_TYPE_NONE	Api_Menu.h	9;"	d
+MENU_DATA_TYPE_OFFON	Api_Menu.h	12;"	d
+MENU_DATA_TYPE_ONOFF	Api_Menu.h	11;"	d
+MENU_DATA_TYPE_STR	Api_Menu.h	10;"	d
+MENU_KEY_EXIT	Api_Menu.h	41;"	d
+MENU_KEY_LINE_DOWN	Api_Menu.h	43;"	d
+MENU_KEY_LINE_UP	Api_Menu.h	42;"	d
+MENU_KEY_MODE_CHANGE	Api_Menu.h	44;"	d
+MENU_LINE_SIZE	Api_Menu.h	18;"	d
+MENU_MODE_MAIN	Api_Menu.h	5;"	d
+MENU_MODE_SUB	Api_Menu.h	6;"	d
+MakeBaseStr	Api_Menu.c	/^void MakeBaseStr(char *out )$/;"	f
+MakeHexToString	Api_Functions.c	/^int MakeHexToString(char* inStr, char* outStr)$/;"	f
+POS_DATA	Api_Menu.c	106;"	d	file:
+POS_FUNCNAME	Api_Menu.c	104;"	d	file:
+POS_NUM	Api_Menu.c	103;"	d	file:
+POS_SEL	Api_Menu.c	108;"	d	file:
+PROGRAM_PATH_MAIN	Api_Functions.c	805;"	d	file:
+Pow	Api_Menu.c	/^int Pow(int x, int y)$/;"	f
+PrintData	Api_Functions.c	/^int PrintData(char *str, unsigned int length, char *info)$/;"	f
+PrintEtcStr	Api_Menu.c	/^void PrintEtcStr(char *input)$/;"	f
+PrintLineStr	Api_Menu.c	/^void PrintLineStr(void)$/;"	f
+PrintMenuStr	Api_Menu.c	/^void PrintMenuStr(char *funcName, char *attu, char *sel, int line, int lastLine, int curLine)$/;"	f
+ReadKernelTime	Api_Functions.c	/^int ReadKernelTime(void)$/;"	f
+ReadKernelTimeToCenter	Api_Functions.c	/^int ReadKernelTimeToCenter(void)$/;"	f
+ReadTime	Api_Functions.c	/^int ReadTime(char *buf, unsigned int bufSize)$/;"	f
+SIZE_DATA	Api_Menu.c	107;"	d	file:
+SIZE_FUNCNAME	Api_Menu.c	105;"	d	file:
+STRING_SIZE	Api_Functions.c	720;"	d	file:
+StrToNum	Api_Menu.c	/^int StrToNum(char *string)$/;"	f
+StringToHex	Api_Functions.c	/^int StringToHex(char *string)$/;"	f
+SwapTimeToString	Api_Functions.c	/^int SwapTimeToString(char *buf, unsigned int bufSize, time_t rTime, char deli1, char deli2)$/;"	f
+TestFunc	menu.c	/^void TestFunc(void)$/;"	f
+TokCpy	Api_Functions.c	/^char* TokCpy(char *startData, char *endData, char *source, char *cpy, int cpyLen)$/;"	f
+__API_MENU_H__	Api_Menu.h	2;"	d
+arg	Api_Functions.c	/^int arg(char **argv, char *string)$/;"	f
+dlp	Api_Functions.c	49;"	d	file:
+dlp	Api_Functions.c	52;"	d	file:
+dp	Api_Functions.c	48;"	d	file:
+dp	Api_Functions.c	51;"	d	file:
+getch	Api_Menu.c	/^int getch(void)$/;"	f
+line	Api_Menu.h	/^	int line;			\/\/메뉴 라인 모드 시 현재 라인$/;"	m	struct:__anon1
+main	menu.c	/^int main(void)$/;"	f
+menuInfo_t	Api_Menu.h	/^}menuInfo_t;$/;"	t	typeref:struct:__anon1
+mode	Api_Menu.h	/^    int mode;			\/\/메뉴 종료 모드$/;"	m	struct:__anon1
+name	Api_Menu.h	/^    char name[256];		\/\/메뉴 타이틀$/;"	m	struct:__anon1
+numFloat	menu.c	/^static float numFloat;$/;"	v	file:
+numInt	menu.c	/^static int numInt;$/;"	v	file:
+selMode	Api_Menu.h	/^    int selMode;		\/\/메뉴 입력 모드 Line(Default), Input$/;"	m	struct:__anon1
+string	menu.c	/^static char string[256];$/;"	v	file:
+testMenu	menu.c	/^static void *testMenu[][4] = {$/;"	v	file:
+toggle	menu.c	/^static int toggle;$/;"	v	file:
+userPow	Api_Functions.c	/^int userPow(int x, int y)$/;"	f
+xxx_DEBUG	Api_Functions.c	45;"	d	file:
