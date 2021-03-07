@@ -10,6 +10,6 @@ Linux C App Api
   - Sqlite를 사용하여 설정, 상태, 로그 값 등을 관리 할수 있도록 구현
   - sqlite3 라이브러리는 제공하지 않습니다.
   - 사용법은 main.c 참조
-* Menu
-  - Cli 환경에서 사용가능한 메뉴 기능 구현
+* Menu : Cli 환경 사용자 메뉴 기능 Api
+  - Cli 환경에서 사용 가능한 메뉴 기능 구현
   - 사용법은 menu.c 참조
