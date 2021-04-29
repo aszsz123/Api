@@ -1,0 +1,157 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+API_MSGQUEUE_H	Api_MsgQueue.h	4;"	d
+CC	Makefile	/^CC=$(CROSS_COMPILE)gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS  = -g -W -Wall -O0 -l.  -Iinclude -fsigned-char $/;"	m
+CheckIpVersion	Api_NetClient.c	/^static int CheckIpVersion(char *ip, int len)$/;"	f	file:
+ClearQueue	Api_MsgQueue.c	/^void ClearQueue(msgQueue_t *qPtr)$/;"	f
+ConnectServer	Api_NetClient.c	/^int ConnectServer(int sockNo, netClient_t *servInfo)$/;"	f
+DestroyQueue	Api_MsgQueue.c	/^void DestroyQueue(msgQueue_t *qPtr)$/;"	f
+DisconnectServer	Api_NetClient.c	/^int DisconnectServer(int sockNo)$/;"	f
+DisplayMenu	Api_Menu.c	/^int DisplayMenu(void *(*menu)[4], menuInfo_t *info)$/;"	f
+FLAG_OFF	Api_NetClient.c	39;"	d	file:
+FLAG_ON	Api_NetClient.c	35;"	d	file:
+GetQueue	Api_MsgQueue.c	/^int GetQueue(msgQueue_t *qPtr, void *getData)$/;"	f
+GetQueueNetClientData	Api_NetClient.c	/^static int GetQueueNetClientData(int qNum, netClient_t *ptr)$/;"	f	file:
+GetQueueTcpRcvData	Api_NetClient.c	/^int GetQueueTcpRcvData(netData_t *ptr)$/;"	f
+GetQueueTcpTxData	Api_NetClient.c	/^int GetQueueTcpTxData(netData_t *ptr)$/;"	f
+INC	Makefile	/^INC     = -I.$/;"	m
+InitQueue	Api_MsgQueue.c	/^int InitQueue(msgQueue_t *qPtr, size_t qSize, size_t dataSize,char *qName)$/;"	f
+InputNetInfo_IPv4	Client_Menu.c	/^int InputNetInfo_IPv4(char *netInfo)$/;"	f
+InputNetInfo_IPv6	Client_Menu.c	/^int InputNetInfo_IPv6(char *netInfo)$/;"	f
+InputNetInfo_Port	Client_Menu.c	/^int InputNetInfo_Port(char *netInfo)$/;"	f
+InputNetInfo_dev	Client_Menu.c	/^int InputNetInfo_dev(char *netInfo)$/;"	f
+KEY_BACK	Api_Menu.c	104;"	d	file:
+KEY_ENTER_CR	Api_Menu.c	103;"	d	file:
+KEY_ENTER_LF	Api_Menu.c	102;"	d	file:
+KEY_ESC	Api_Menu.c	106;"	d	file:
+KEY_TAP	Api_Menu.c	105;"	d	file:
+LDFLAGS	Makefile	/^LDFLAGS = -s -L.\/lib -lpthread -I.$/;"	m
+LIBS	Makefile	/^LIBS = $/;"	m
+LIB_DIR	Makefile	/^LIB_DIR = .\/lib\/$/;"	m
+MENU_DATA_TYPE_FLOAT	Api_Menu.h	40;"	d
+MENU_DATA_TYPE_HIGHLOW	Api_Menu.h	38;"	d
+MENU_DATA_TYPE_INT	Api_Menu.h	39;"	d
+MENU_DATA_TYPE_NONE	Api_Menu.h	34;"	d
+MENU_DATA_TYPE_OFFON	Api_Menu.h	37;"	d
+MENU_DATA_TYPE_ONOFF	Api_Menu.h	36;"	d
+MENU_DATA_TYPE_STR	Api_Menu.h	35;"	d
+MENU_KEY_EXIT	Api_Menu.h	10;"	d
+MENU_KEY_HELP	Api_Menu.h	14;"	d
+MENU_KEY_LINE_DOWN	Api_Menu.h	12;"	d
+MENU_KEY_LINE_UP	Api_Menu.h	11;"	d
+MENU_KEY_MODE_CHANGE	Api_Menu.h	13;"	d
+MENU_LINE_SIZE	Api_Menu.c	119;"	d	file:
+MENU_MODE_MAIN	Api_Menu.h	30;"	d
+MENU_MODE_SUB	Api_Menu.h	31;"	d
+MakeBaseStr	Api_Menu.c	/^void MakeBaseStr(char *out )$/;"	f
+NETBUF_MAXSIZE	Api_NetClient.h	11;"	d
+NETCLIENT_MAXSIZE	Api_NetClient.h	10;"	d
+OBJS	Makefile	/^OBJS	= main.o\\$/;"	m
+POS_DATA	Api_Menu.c	116;"	d	file:
+POS_DATA_OFFSET	Api_Menu.h	7;"	d
+POS_FUNCNAME	Api_Menu.c	115;"	d	file:
+POS_LINE_ARROW	Api_Menu.c	114;"	d	file:
+POS_NUM	Api_Menu.c	113;"	d	file:
+POS_SEL	Api_Menu.c	117;"	d	file:
+POS_SEL_OFFSET	Api_Menu.h	8;"	d
+Pow	Api_Menu.c	/^int Pow(int x, int y)$/;"	f
+PrintDataAll	Api_NetClient.c	/^void PrintDataAll(char *data, int len, char *name)$/;"	f
+PrintEtcStr	Api_Menu.c	/^void PrintEtcStr(char *input, int startPos)$/;"	f
+PrintHelpStr	Api_Menu.c	/^int PrintHelpStr(char *input, int startPos)$/;"	f
+PrintLineStr	Api_Menu.c	/^void PrintLineStr(void)$/;"	f
+PrintMenuStr	Api_Menu.c	/^void PrintMenuStr(char *funcName, char *attu, char *sel, int line, int lastLine, int curLine)$/;"	f
+PrintQueue	Api_MsgQueue.c	/^void PrintQueue(msgQueue_t *qPtr)$/;"	f
+PutQueue	Api_MsgQueue.c	/^int PutQueue(msgQueue_t *qPtr, void *putData)$/;"	f
+PutQueueNetClientData	Api_NetClient.c	/^static int PutQueueNetClientData(int qNum, netClient_t *ptr)$/;"	f	file:
+PutQueueTcpRcvData	Api_NetClient.c	/^int PutQueueTcpRcvData(netData_t *ptr)$/;"	f
+PutQueueTcpTxData	Api_NetClient.c	/^int PutQueueTcpTxData(netData_t *ptr)$/;"	f
+RcvProc	Api_NetClient.c	/^int RcvProc(int sockNo)$/;"	f
+SEM_INIT_OK	Api_MsgQueue.c	21;"	d	file:
+SIZE_DATA	Api_Menu.h	6;"	d
+SIZE_FUNCNAME	Api_Menu.h	5;"	d
+SIZE_LINE_ARROW	Api_Menu.c	110;"	d	file:
+SIZE_NUM	Api_Menu.c	109;"	d	file:
+SIZE_SEL	Api_Menu.c	111;"	d	file:
+SOCK_NO1	Api_NetClient.h	/^	SOCK_NO1=0,$/;"	e	enum:__anon2
+SOCK_NO2	Api_NetClient.h	/^	SOCK_NO2,$/;"	e	enum:__anon2
+SOCK_NO3	Api_NetClient.h	/^	SOCK_NO3,$/;"	e	enum:__anon2
+SOCK_NO_MAX	Api_NetClient.h	/^	SOCK_NO_MAX,$/;"	e	enum:__anon2
+SRCS	Makefile	/^SRCS=$(OBJS:.o=.c)$/;"	m
+SendTcpData	Api_NetClient.c	/^int SendTcpData(int sockNo, char *data, unsigned int length)$/;"	f
+SetServerIPv4	Client_Menu.c	/^int SetServerIPv4(void)$/;"	f
+SetServerIPv6	Client_Menu.c	/^int SetServerIPv6(void)$/;"	f
+SetServerInfo	Api_NetClient.c	/^int SetServerInfo(int sockNo, char *ip, int port, char *dev)$/;"	f
+StartClientMenu	Client_Menu.c	/^int StartClientMenu(void)$/;"	f
+StartNetClientProcess	Api_NetClient.c	/^int StartNetClientProcess(void)$/;"	f
+StopNetClientProcess	Api_NetClient.c	/^int StopNetClientProcess(void)$/;"	f
+StrToNum	Api_Menu.c	/^int StrToNum(char *string)$/;"	f
+TARGET	Makefile	/^TARGET  = $(DEVICE_NAME)$/;"	m
+TermCmd	Client_Menu.c	/^int TermCmd(void)$/;"	f
+ThreadTcpClientTx	Api_NetClient.c	/^int* ThreadTcpClientTx(void)$/;"	f
+ThreadTcpRxClient	Api_NetClient.c	/^int *ThreadTcpRxClient(int sockNo)$/;"	f
+ThreadTestMenu	Client_Menu.c	/^static int* ThreadTestMenu(void)$/;"	f	file:
+UdpSendData	Api_NetClient.c	/^int UdpSendData(char *ip, char *port, char *data, int len,int cnt)$/;"	f
+__API_MENU_H__	Api_Menu.h	2;"	d
+__API_NETCLIENT_H__	Api_NetClient.h	7;"	d
+_stQUEUE	Api_MsgQueue.h	/^typedef struct _stQUEUE{$/;"	s
+buff	Api_NetClient.c	/^	char buff[sizeof(st_netClient_t)];$/;"	m	union:uni_netClient	file:
+clientMenu	Client_Menu.c	/^static void *clientMenu [][4] = {$/;"	v	file:
+connection	Api_NetClient.c	/^	int connection;$/;"	m	struct:netInfo_st	file:
+data	Api_NetClient.h	/^	char data[NETBUF_MAXSIZE];$/;"	m	struct:st_netData
+dev	Api_NetClient.c	/^    char dev[16];$/;"	m	struct:st_netClient	file:
+dlp	Api_MsgQueue.c	15;"	d	file:
+dlp	Api_MsgQueue.c	18;"	d	file:
+dlp	Api_NetClient.c	28;"	d	file:
+dlp	Api_NetClient.c	31;"	d	file:
+dp	Api_MsgQueue.c	14;"	d	file:
+dp	Api_MsgQueue.c	17;"	d	file:
+dp	Api_NetClient.c	27;"	d	file:
+dp	Api_NetClient.c	30;"	d	file:
+front	Api_MsgQueue.h	/^	int front;			\/\/ 읽을 위치$/;"	m	struct:_stQUEUE
+getch	Api_Menu.c	/^int getch(void)$/;"	f
+help	Api_Menu.h	/^	char *help;			\/\/헬프 메뉴얼 출력 스트링$/;"	m	struct:__anon1
+ipVersion	Api_NetClient.c	/^    char ipVersion;$/;"	m	struct:st_netClient	file:
+ipv6	Api_NetClient.c	/^    char ipv6[16];$/;"	m	struct:st_netClient	file:
+length	Api_NetClient.h	/^	unsigned int length;$/;"	m	struct:st_netData
+line	Api_Menu.h	/^	int line;			\/\/메뉴 라인 모드 시 현재 라인$/;"	m	struct:__anon1
+lock	Api_MsgQueue.h	/^	sem_t lock;$/;"	m	struct:_stQUEUE
+main	main.c	/^int main(void)$/;"	f
+mem	Api_NetClient.c	/^	st_netClient_t mem;$/;"	m	union:uni_netClient	file:
+menuInfo_t	Api_Menu.h	/^}menuInfo_t;$/;"	t	typeref:struct:__anon1
+mode	Api_Menu.h	/^    int mode;			\/\/메뉴 종료 모드$/;"	m	struct:__anon1
+msgQueue_t	Api_MsgQueue.h	/^}msgQueue_t;$/;"	t	typeref:struct:_stQUEUE
+name	Api_Menu.h	/^    char *name;			\/\/메뉴 타이틀$/;"	m	struct:__anon1
+netClient	Api_NetClient.c	/^static netInfo_t netClient[SOCK_NO_MAX];$/;"	v	file:
+netClient_t	Api_NetClient.c	/^}netClient_t;$/;"	t	typeref:union:uni_netClient	file:
+netData_t	Api_NetClient.h	/^}__attribute__((packed))netData_t;$/;"	t	typeref:struct:st_netData
+netInfo_st	Api_NetClient.c	/^typedef struct netInfo_st{$/;"	s	file:
+netInfo_t	Api_NetClient.c	/^}netInfo_t;$/;"	t	typeref:struct:netInfo_st	file:
+pollClient	Api_NetClient.c	/^static struct pollfd pollClient[SOCK_NO_MAX];$/;"	v	typeref:struct:pollfd	file:
+port	Api_NetClient.h	/^	unsigned int port;$/;"	m	struct:st_netData
+printSpace	Client_Menu.c	/^void printSpace(int num)$/;"	f
+qMemSize	Api_MsgQueue.h	/^	size_t qMemSize;		\/\/ Queue Mem Size$/;"	m	struct:_stQUEUE
+qSize	Api_MsgQueue.h	/^	int qSize;			\/\/ Queue Get Max Cnt$/;"	m	struct:_stQUEUE
+queue	Api_MsgQueue.h	/^	void *queue;		\/\/ queue로 사용되는 배열$/;"	m	struct:_stQUEUE
+queueTcpClient	Api_NetClient.c	/^static msgQueue_t queueTcpClient[SOCK_NO_MAX];$/;"	v	file:
+queueTcpRcvData	Api_NetClient.c	/^static msgQueue_t queueTcpRcvData;$/;"	v	file:
+queueTcpTxData	Api_NetClient.c	/^static msgQueue_t queueTcpTxData;$/;"	v	file:
+rear	Api_MsgQueue.h	/^	int rear; 			\/\/ 쓸 위치$/;"	m	struct:_stQUEUE
+respTarget	Api_NetClient.h	/^	unsigned int respTarget;$/;"	m	struct:st_netData
+selMode	Api_Menu.h	/^    int selMode;		\/\/메뉴 입력 모드 Line(Default), Input$/;"	m	struct:__anon1
+semInitResult	Api_MsgQueue.h	/^	int semInitResult;$/;"	m	struct:_stQUEUE
+servIp	Api_NetClient.c	/^	unsigned int servIp;$/;"	m	struct:st_netClient	file:
+servPort	Api_NetClient.c	/^	int servPort;$/;"	m	struct:st_netClient	file:
+sockFd	Api_NetClient.c	/^	int sockFd;$/;"	m	struct:netInfo_st	file:
+st_netClient	Api_NetClient.c	/^typedef struct st_netClient {$/;"	s	file:
+st_netClient_t	Api_NetClient.c	/^}st_netClient_t;$/;"	t	typeref:struct:st_netClient	file:
+st_netData	Api_NetClient.h	/^typedef struct st_netData {$/;"	s
+thdNetClientRx	Api_NetClient.c	/^static pthread_t thdNetClientRx[SOCK_NO_MAX];$/;"	v	file:
+thdNetClientRx_Init	Api_NetClient.c	/^static int thdNetClientRx_Init[SOCK_NO_MAX];$/;"	v	file:
+thdNetClientTx	Api_NetClient.c	/^static pthread_t thdNetClientTx;$/;"	v	file:
+uni_netClient	Api_NetClient.c	/^typedef union uni_netClient {$/;"	u	file:
+xxx_DEBUG	Api_NetClient.c	24;"	d	file:
