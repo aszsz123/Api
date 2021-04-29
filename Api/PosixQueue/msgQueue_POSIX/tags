@@ -1,0 +1,24 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+InitQueue	Api_PmsgQueue.c	/^int InitQueue(char *mqName, long size, int type)$/;"	f
+Q_MAX_NUM	Api_PmsgQueue.c	10;"	d	file:
+RcvQueue	Api_PmsgQueue.c	/^int RcvQueue(int fd, char *ptr, long size)$/;"	f
+SendQueue	Api_PmsgQueue.c	/^int SendQueue(int fd, char *ptr, long size)$/;"	f
+StartRcv	mq_example.c	/^void StartRcv(void)$/;"	f
+StartSend	mq_example.c	/^void StartSend(void)$/;"	f
+TEST_DATA	mq_example.c	37;"	d	file:
+__API_PMSGQUEUE__	Api_PmsgQueue.h	2;"	d
+buf_st	mq_example.c	/^}buf_st;$/;"	t	typeref:struct:st_buf_t	file:
+data	mq_example.c	/^    char data[1024];$/;"	m	struct:st_buf_t	file:
+kind	mq_example.c	/^    int kind;$/;"	m	struct:st_buf_t	file:
+main	mq_example.c	/^int  main(void)$/;"	f
+name	mq_example.c	/^    char name[30];$/;"	m	struct:st_buf_t	file:
+rcvth	mq_example.c	/^pthread_t rcvth;$/;"	v
+sendth	mq_example.c	/^pthread_t sendth;$/;"	v
+st_buf_t	mq_example.c	/^typedef struct st_buf_t{$/;"	s	file:
+threadrcv	mq_example.c	/^void *threadrcv(void)$/;"	f
+threadsend	mq_example.c	/^void *threadsend(void)$/;"	f

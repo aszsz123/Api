@@ -1,0 +1,27 @@
+
+POSIX 메세지 큐 사용 API 
+
+예제 컴파일 방법  
+gcc -o q mq_example.c Api_PmsgQueue.c -lrt -lpthread -L./
+
+#############################################################################################################
+커널에서 기본으로 설정된 메세지 큐 사이즈, 크기 등이 정해져있어 에러가 날 수있으니 미리확인 후 필요시 값 변경
+=======================
+msg_max           : default로 10이고 메시지의 최대개수 이다
+
+msgsize_max     : queue에 넣을 수 있는 최대 메시지 크기
+
+queues_max      : 시스템 최대 메시지queue 식별자 수
+=======================
+
+sudo su
+cat /proc/sys/fs/mqueue/msg_max     
+cat /proc/sys/fs/mqueue/msgsize_max
+
+echo 1024 > /proc/sys/fs/mqueue/msg_max
+echo 16384 > /proc/sys/fs/mqueue/msgsize_max
+
+자세한 내용 은 아래 링크 참조 
+https://m.blog.naver.com/PostView.nhn?blogId=yababies&logNo=40205896263&proxyReferer=https:%2F%2Fwww.google.com%2F
+
+=======================
